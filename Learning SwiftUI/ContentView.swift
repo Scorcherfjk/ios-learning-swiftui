@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TextView: View {
     var body: some View {
         Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus rhoncus bibendum. Curabitur consectetur non turpis nec hendrerit. Donec vel efficitur tortor, ac pharetra ante. In nec ipsum id libero condimentum ullamcorper ac vel dui. Aenean semper nisl at ipsum rhoncus, elementum condimentum lacus tempus. Suspendisse et dui sit amet magna sagittis aliquet a sed nibh. Nam eu aliquet purus. Aenean sed ante massa. Praesent ullamcorper turpis pretium, tempor mi sed, eleifend massa. Integer eget dolor iaculis, porttitor arcu vitae, tempor lacus.")
             .fontWeight(.light)
@@ -24,8 +24,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TextView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TextView()
     }
 }

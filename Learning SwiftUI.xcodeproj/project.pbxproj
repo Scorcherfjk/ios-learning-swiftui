@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		383DCC8125A3C5E600E56202 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383DCC8025A3C5E600E56202 /* ImageView.swift */; };
 		385754E925A3BE1B00DBD4CA /* Learning_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385754E825A3BE1B00DBD4CA /* Learning_SwiftUIApp.swift */; };
 		385754EB25A3BE1B00DBD4CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385754EA25A3BE1B00DBD4CA /* ContentView.swift */; };
 		385754ED25A3BE1B00DBD4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385754EC25A3BE1B00DBD4CA /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		383DCC8025A3C5E600E56202 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		385754E525A3BE1B00DBD4CA /* Learning SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		385754E825A3BE1B00DBD4CA /* Learning_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_SwiftUIApp.swift; sourceTree = "<group>"; };
 		385754EA25A3BE1B00DBD4CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				385754E825A3BE1B00DBD4CA /* Learning_SwiftUIApp.swift */,
 				385754EA25A3BE1B00DBD4CA /* ContentView.swift */,
+				383DCC8025A3C5E600E56202 /* ImageView.swift */,
 				385754EC25A3BE1B00DBD4CA /* Assets.xcassets */,
 				385754F125A3BE1B00DBD4CA /* Info.plist */,
 				385754EE25A3BE1B00DBD4CA /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383DCC8125A3C5E600E56202 /* ImageView.swift in Sources */,
 				385754EB25A3BE1B00DBD4CA /* ContentView.swift in Sources */,
 				385754E925A3BE1B00DBD4CA /* Learning_SwiftUIApp.swift in Sources */,
 			);
