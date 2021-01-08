@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3802922525A7AD1400D95920 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3802922425A7AD1400D95920 /* CardView.swift */; };
+		3802922825A7C8E000D95920 /* CoursesScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3802922725A7C8E000D95920 /* CoursesScrollView.swift */; };
 		383DCC8125A3C5E600E56202 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383DCC8025A3C5E600E56202 /* ImageView.swift */; };
 		385754E925A3BE1B00DBD4CA /* Learning_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385754E825A3BE1B00DBD4CA /* Learning_SwiftUIApp.swift */; };
 		385754EB25A3BE1B00DBD4CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385754EA25A3BE1B00DBD4CA /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3802922425A7AD1400D95920 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3802922725A7C8E000D95920 /* CoursesScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesScrollView.swift; sourceTree = "<group>"; };
 		383DCC8025A3C5E600E56202 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		385754E525A3BE1B00DBD4CA /* Learning SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		385754E825A3BE1B00DBD4CA /* Learning_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_SwiftUIApp.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				385754F125A3BE1B00DBD4CA /* Info.plist */,
 				385754EE25A3BE1B00DBD4CA /* Preview Content */,
 				38EBA4EA25A507AB000A5FF2 /* StacksView.swift */,
+				3802922425A7AD1400D95920 /* CardView.swift */,
+				3802922725A7C8E000D95920 /* CoursesScrollView.swift */,
 			);
 			path = "Learning SwiftUI";
 			sourceTree = "<group>";
@@ -148,6 +154,8 @@
 				385754EB25A3BE1B00DBD4CA /* ContentView.swift in Sources */,
 				385754E925A3BE1B00DBD4CA /* Learning_SwiftUIApp.swift in Sources */,
 				38EBA4EB25A507AB000A5FF2 /* StacksView.swift in Sources */,
+				3802922825A7C8E000D95920 /* CoursesScrollView.swift in Sources */,
+				3802922525A7AD1400D95920 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
