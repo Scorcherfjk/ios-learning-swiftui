@@ -14,13 +14,13 @@ struct StacksView: View {
             
             HStack(spacing: 8) {
                 Spacer()
-                CardView(title: "Básico", subtitle: "Un curso incluido", detail: nil, price: "9.99$")
+                PriceView(title: "Básico", subtitle: "Un curso incluido", detail: nil, price: "9.99$")
                 Spacer()
-                CardView(title: "Carrera", subtitle: "Toda una carrera", detail: "La mejor para empezar", fColor: .black, bgColor: Color(red: 230/255, green: 230/255, blue: 230/255))
+                PriceView(title: "Carrera", subtitle: "Toda una carrera", detail: "La mejor para empezar", price: "29.99$", fColor: .black, bgColor: Color(red: 230/255, green: 230/255, blue: 230/255))
                 Spacer()
             }
             
-            CardView(title: "Definitivo", subtitle: "Todos los cursos Online", detail: "Conviertete en un master del universo", price: "99.99$", fColor: .white, bgColor: Color(red: 50/255, green: 50/255, blue: 50/255), icon: "scribble")
+            PriceView(title: "Definitivo", subtitle: "Todos los cursos Online", detail: "Conviertete en un master del universo", price: "99.99$", fColor: .white, bgColor: Color(red: 50/255, green: 50/255, blue: 50/255), icon: "scribble")
                 .padding()
             Spacer()
             
@@ -30,7 +30,9 @@ struct StacksView: View {
 
 struct StacksView_Previews: PreviewProvider {
     static var previews: some View {
-        StacksView()
+        Group {
+            StacksView()
+        }
     }
 }
 
@@ -51,7 +53,7 @@ struct HeaderView: View {
     }
 }
 
-struct CardView: View {
+struct PriceView: View {
     
     var title: String = "Some title"
     var subtitle: String = "Some subtitle"
