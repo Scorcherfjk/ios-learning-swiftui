@@ -15,6 +15,9 @@
 		385754EB25A3BE1B00DBD4CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385754EA25A3BE1B00DBD4CA /* ContentView.swift */; };
 		385754ED25A3BE1B00DBD4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385754EC25A3BE1B00DBD4CA /* Assets.xcassets */; };
 		385754F025A3BE1B00DBD4CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385754EF25A3BE1B00DBD4CA /* Preview Assets.xcassets */; };
+		38ACCC3C25AA1FFA003FF513 /* PlayerAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ACCC3B25AA1FFA003FF513 /* PlayerAudioView.swift */; };
+		38ACCC3F25AA268B003FF513 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ACCC3E25AA268B003FF513 /* CounterView.swift */; };
+		38ACCC4225AA3099003FF513 /* GraphicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ACCC4125AA3099003FF513 /* GraphicView.swift */; };
 		38EBA4EB25A507AB000A5FF2 /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EBA4EA25A507AB000A5FF2 /* StacksView.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +32,9 @@
 		385754EC25A3BE1B00DBD4CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		385754EF25A3BE1B00DBD4CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		385754F125A3BE1B00DBD4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38ACCC3B25AA1FFA003FF513 /* PlayerAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerAudioView.swift; sourceTree = "<group>"; };
+		38ACCC3E25AA268B003FF513 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		38ACCC4125AA3099003FF513 /* GraphicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicView.swift; sourceTree = "<group>"; };
 		38EBA4EA25A507AB000A5FF2 /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +78,9 @@
 				3802922425A7AD1400D95920 /* CardView.swift */,
 				3802922725A7C8E000D95920 /* CoursesScrollView.swift */,
 				38079F1425A8F5C900061554 /* ButtonView.swift */,
+				38ACCC4125AA3099003FF513 /* GraphicView.swift */,
+				38ACCC3E25AA268B003FF513 /* CounterView.swift */,
+				38ACCC3B25AA1FFA003FF513 /* PlayerAudioView.swift */,
 			);
 			path = "Learning SwiftUI";
 			sourceTree = "<group>";
@@ -155,11 +164,14 @@
 			files = (
 				383DCC8125A3C5E600E56202 /* ImageView.swift in Sources */,
 				385754EB25A3BE1B00DBD4CA /* ContentView.swift in Sources */,
+				38ACCC3C25AA1FFA003FF513 /* PlayerAudioView.swift in Sources */,
+				38ACCC4225AA3099003FF513 /* GraphicView.swift in Sources */,
 				385754E925A3BE1B00DBD4CA /* Learning_SwiftUIApp.swift in Sources */,
 				38EBA4EB25A507AB000A5FF2 /* StacksView.swift in Sources */,
 				3802922825A7C8E000D95920 /* CoursesScrollView.swift in Sources */,
 				3802922525A7AD1400D95920 /* CardView.swift in Sources */,
 				38079F1525A8F5C900061554 /* ButtonView.swift in Sources */,
+				38ACCC3F25AA268B003FF513 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
